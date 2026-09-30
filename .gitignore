@@ -1,0 +1,43 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Python, if the prototype moves that way
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local caches and logs
+.cache/
+.tmp/
+tmp/
+*.log
+
+# Editor and Markdown-tool artifacts
+.obsidian/
+.trash/
+.vscode/
+*.swp
+*.swo
+*~
+.~lock.*
+*.sync-conflict-*
+
+# OS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,15 @@
+{
+  "name": "mnemium",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A local-first second brain. Plain Markdown notes, no framework.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/cli/main.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
