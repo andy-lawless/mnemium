@@ -1,0 +1,14 @@
+{
+  "name": "mnemium",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Mnemium second-brain skill. Notes live in a cloud-drive folder.",
+  "scripts": {
+    "mn": "node scripts/mn.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
